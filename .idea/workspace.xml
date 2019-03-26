@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48b7f7d8-67d5-4c65-875b-41605e5ce1a4" name="Default" comment="" />
+    <list default="true" id="48b7f7d8-67d5-4c65-875b-41605e5ce1a4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/land/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/land/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/land/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/land/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/page-home.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +17,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page-home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/land/page-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="113" column="71" selection-start-line="113" selection-start-column="71" selection-end-line="113" selection-end-column="71" />
+            <state relative-caret-position="289">
+              <caret line="289" column="36" selection-start-line="289" selection-start-column="36" selection-end-line="289" selection-end-column="36" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#8366#8372#0#HTML" expanded="true" />
+                <element signature="e#8438#8444#0#HTML" expanded="true" />
+                <element signature="e#8459#8465#0#HTML" expanded="true" />
+                <element signature="e#8481#8487#0#HTML" expanded="true" />
+                <element signature="e#8557#8563#0#HTML" expanded="true" />
+                <element signature="e#8573#8579#0#HTML" expanded="true" />
+                <element signature="e#8668#8674#0#HTML" expanded="true" />
+                <element signature="e#8697#8703#0#HTML" expanded="true" />
+                <element signature="e#8815#8821#0#HTML" expanded="true" />
+                <element signature="e#8823#8829#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#13781#13786#0#HTML" expanded="true" />
+                <element signature="e#14726#14731#0#HTML" expanded="true" />
+                <element signature="e#16296#16301#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/hoangphuc/template.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="1694" column="1" lean-forward="true" selection-start-line="1643" selection-end-line="1694" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/land/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="1351" selection-start-line="1351" selection-end-line="1351" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../toyennguyenchat/wp-content/themes/toyennguyenchat/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="79" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/land/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/land/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single-video.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/land/single-video.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="81" column="78" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -33,7 +120,20 @@
       <find>.video-content</find>
       <find>.video-content .prev_video_slider</find>
       <find>.video-content .item.active, .video-content .item:hover</find>
+      <find>.page-home .news-content</find>
+      <find>.content-project .block_project</find>
+      <find>.wrap-project</find>
+      <find>.wrap-news</find>
+      <find>.wrap-fieldwork</find>
+      <find>.wrap-partner .title</find>
+      <find>.ls-partners</find>
+      <find>marginright30</find>
+      <find>.footer-coppyright</find>
+      <find>prev_video_slider</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -44,19 +144,19 @@
         <option value="$PROJECT_DIR$/../hd/index.php" />
         <option value="$PROJECT_DIR$/../hd/configuration.php" />
         <option value="$PROJECT_DIR$/../networksaigon/configuration.php" />
-        <option value="$USER_HOME$/Desktop/hoangphuc/template.css" />
         <option value="$USER_HOME$/Desktop/slick-theme.min.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/land/page-home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/archive-video.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/content-video.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/land/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/single-video.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/land/js/main.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/land/css/style.css" />
         <option value="$PROJECT_DIR$/../green/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/inc/register_custom_postype.php" />
+        <option value="$USER_HOME$/Desktop/hoangphuc/template.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/page-home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/css/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/js/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/footer.php" />
       </list>
     </option>
   </component>
@@ -79,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,15 +204,32 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="land" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hoangphuc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoangphuc" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="land" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hoangphuc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hoangphuc" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="land" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../green" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -150,14 +266,17 @@
       <workItem from="1553304530577" duration="357000" />
       <workItem from="1553477477131" duration="794000" />
       <workItem from="1553480829899" duration="622000" />
+      <workItem from="1553565919500" duration="621000" />
+      <workItem from="1553582984594" duration="10662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59774000" />
+    <option name="totallyTimeSpent" value="71057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24377745" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -165,7 +284,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32843137" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -187,7 +306,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/single.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/land/category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -365,20 +483,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/land/content-video.php" />
-    <entry file="file://$PROJECT_DIR$/../toyennguyenchat/wp-content/themes/toyennguyenchat/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/hoangphuc/template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26010">
-          <caret line="1530" column="1" selection-start-line="1473" selection-end-line="1530" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/land/archive-video.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -412,24 +516,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../green/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/single-video.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="111" selection-start-line="39" selection-start-column="111" selection-end-line="39" selection-end-column="111" />
         </state>
       </provider>
     </entry>
@@ -454,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/land/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -468,17 +551,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/css/style.css">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9792">
-          <caret line="576" column="26" selection-start-line="576" selection-start-column="26" selection-end-line="576" selection-end-column="26" />
+        <state relative-caret-position="194">
+          <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/single-video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="81" column="78" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/land/page-home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="113" column="71" selection-start-line="113" selection-start-column="71" selection-end-line="113" selection-end-column="71" />
+        <state relative-caret-position="289">
+          <caret line="289" column="36" selection-start-line="289" selection-start-column="36" selection-end-line="289" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#8366#8372#0#HTML" expanded="true" />
+            <element signature="e#8438#8444#0#HTML" expanded="true" />
+            <element signature="e#8459#8465#0#HTML" expanded="true" />
+            <element signature="e#8481#8487#0#HTML" expanded="true" />
+            <element signature="e#8557#8563#0#HTML" expanded="true" />
+            <element signature="e#8573#8579#0#HTML" expanded="true" />
+            <element signature="e#8668#8674#0#HTML" expanded="true" />
+            <element signature="e#8697#8703#0#HTML" expanded="true" />
+            <element signature="e#8815#8821#0#HTML" expanded="true" />
+            <element signature="e#8823#8829#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#13781#13786#0#HTML" expanded="true" />
+            <element signature="e#14726#14731#0#HTML" expanded="true" />
+            <element signature="e#16296#16301#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/hoangphuc/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="1694" column="1" lean-forward="true" selection-start-line="1643" selection-end-line="1694" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../toyennguyenchat/wp-content/themes/toyennguyenchat/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="79" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="1351" selection-start-line="1351" selection-end-line="1351" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

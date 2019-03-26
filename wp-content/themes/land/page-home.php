@@ -146,6 +146,165 @@ $page_id = $post->ID;
         </div>
     </div>
 
+    <div class="wrap-news">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-branch-title"><h3 class="title line-title">Tin tức - sự kiện</h3></div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="news-content row">
+                        <?php for ($i=0;$i<3;$i++): ?>
+                            <div class="col-xs-12 col-sm-4 item">
+                                <div class="row">
+                                    <a class="col-md-12 news-thumbnail" href="#" style="background-image:url(http://baolongland.com.vn/assets/uploads/images/post/banerth%E1%BA%BB_28112017152141.jpg);">
+                                        <div class="date-time">28/11/2017</div>
+                                    </a>
+                                    <div class="col-md-12 news-info">
+                                        <div class="title"><a href="#">Ưu đãi của thẻ "Gold Member"</a></div>
+                                        <div class="description"><a href="#">Nhằm tri&nbsp;ân
+                                                tất cả những khách hàng&nbsp;đã tin tưởng và&nbsp;đồng hành với dự&nbsp;án
+                                                Rosena trong thời gian qua.&nbsp;Đồng thời,&nbsp;đánh dấu mốc thời gian hoàn
+                                                thành phần cọc của dự&nbsp;án, Công ty Cổ Phần Bất&nbsp;Động Sản Bảo Long gửi
+                                                tặng tất cả Khách hàng thẻ Rosena Member với nhiều&nbsp;ưu&nbsp;đãi hấp dẫn.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endfor; ?>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap-project">
+        <div class="container content-project">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-branch-title"><h3 class="title line-title line-w">Dự án đầu tư</h3></div>
+                </div>
+                <div class="block_project col-md-12">
+                    <div class="content">
+                        <div class="list_project">
+                                    <?php for ($i=0;$i<4;$i++): ?>
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <a class="item" href="#">
+                                                    <div class="box-item">
+                                                        <img class="img-responsive" src="http://baolongland.com.vn/assets/uploads/images/post/vogue-resort-nha-trang_2932017153228.jpg" alt="VOGUE RESORT - Nha Trang">
+                                                        <div class="bg-project" style="background-image:url(http://baolongland.com.vn/assets/uploads/myfiles/images/project/logo-vogue-resort.png)"></div>
+                                                    </div>
+                                                    <span>VOGUE RESORT - Nha Trang</span>
+                                                </a>
+                                            </div>
+                                            <div class="col-6">
+                                                <a class="item" href="#">
+                                                    <div class="box-item">
+                                                        <img class="img-responsive" src="http://baolongland.com.vn/assets/uploads/images/post/vogue-resort-nha-trang_2932017153228.jpg" alt="VOGUE RESORT - Nha Trang">
+                                                        <div class="bg-project" style="background-image:url(http://baolongland.com.vn/assets/uploads/myfiles/images/project/logo-vogue-resort.png)"></div>
+                                                    </div>
+                                                    <span>VOGUE RESORT - Nha Trang</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php endfor; ?>
+                        </div>
+                        <div class="text-center">
+                            <a href="javascript:;" class="prev_project_slider"></a>
+                            <a href="javascript:;" class="next_project_slider"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap-fieldwork">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-branch-title ">
+                        <h3 class="title line-title small-title">lĩnh vực hoạt động</h3>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-offset-1 col-lg-10 marginbottom30">
+                    <p>Bảo Long Land  đang từng bước đầu tư và phát triển các dự án trên tinh thần thận trọng, chuyên nghiệp, không ngừng học hỏi. Khi phát triển các dự án bất động sản Bảo Long Land  tuân thủ, thực hiện, triển khai đầu tư theo đúng 5 tiêu chí: An toàn; Kỹ thuật và chất lượng; Tiến độ; Hiệu quả đầu tư và Tính thẩm mỹ. Mong muốn lớn nhất của Bảo Long Land  là tạo ra những giá trị bền vững theo thời gian.</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                    <img alt="Xây dựng dự án bđs" class="img-responsive inline-block" src="http://baolongland.com.vn/assets/uploads/myfiles/images/aboutus/ico-xay-dung.svg">
+                    <span>xây dựng<br>dự án bđs</span>
+                    <p>Xây dựng các dự án BĐS theo 5 tiêu chí: An toàn; Kỹ thuật và chất lượng; Tiến độ; Hiệu quả đầu tư và Tính thẩm mỹ.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                    <img alt="Đầu tư &amp; phát triển dự án" class="img-responsive inline-block" src="http://baolongland.com.vn/assets/uploads/myfiles/images/aboutus/ico-dau-tu.svg">
+                    <span>Đầu tư &amp;<br>phát triển dự án</span>
+                    <p>Đầu tư và phát triển các dự án trên tinh thần thận trọng, chuyên nghiệp, khoa học và không ngừng học hỏi.</p>
+                </div>
+                <div class="clearfix visible-sm"></div>
+                <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                    <img alt="Kinh doanh bất động sản" class="img-responsive inline-block" src="http://baolongland.com.vn/assets/uploads/myfiles/images/aboutus/ico-kinh-doanh.svg">
+                    <span>Kinh doanh<br>bất động sản</span>
+                    <p>Bảo Long Land  tập trung vào việc đáp ứng được nhu cầu thực tế của thị trường và của khách hàng.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                    <img alt="Thương mại &amp; dịch vụ" class="img-responsive inline-block" src="http://baolongland.com.vn/assets/uploads/myfiles/images/aboutus/ico-thuong-mai.svg">
+                    <span>Thương mại<br>&amp; dịch vụ</span>
+                    <p>Phối hợp với đối tác để triển khai các dịch vụ, khai thác dự án nhằm đem lại hiệu quả tốt nhất cho khách hàng.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap-value">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 pull-right">
+                    <div class="page-branch-title">
+                        <h3 class="title line-title small-title">Giá trị cốt lõi</h3>
+                    </div>
+                    <p>Các sản phẩm bất động sản của Bảo Long Land  tập trung vào việc đáp ứng được nhu cầu thực tế của thị trường, của khách hàng. Một sản phẩm bất động sản do Bảo Long Land  đầu tư và phát triển sẽ đem đến cho khách hàng ba giá trị cốt lõi: Giá trị sử dụng, giá trị khai thác và giá trị bền vững.</p>
+                    <a href="#">Xem thêm</a>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <img alt="Giá trị cốt lõi" class="img-responsive inline-block margintop30" src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/gia-tri-cot-loi.jpg">
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap-partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="title title-color">Chủ đầu tư &amp; phát triển dự án:</h3>
+                    <img alt="New City Group" class="img-responsive img-logo marginright30" src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/logo-new-city-group.svg">
+                    <img alt="Bảo Long Land" class="img-responsive img-logo" src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/logo-bao-long-land.svg">
+                </div>
+                <div class="col-md-8">
+                    <h3 class="title title-color">Đối tác chiến lược:</h3>
+                    <ul class="ls-partners">
+                        <li class="info" style="height: 100px;">
+                            <img alt="Dark Horse" class="img-responsive img-logo" src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/logo-dark-horse.svg">
+                        </li>
+                        <li class="info" style="height: 100px;">
+                            <img alt="IVB" class="img-responsive img-logo" src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/logo-ivb.svg">
+                        </li>
+                        <li class="info" style="height: 100px;">
+                            <img alt="Vietcombank" class="img-responsive img-logo" src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/logo-vietcombank.svg">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <?php include 'footer.php' ?>
