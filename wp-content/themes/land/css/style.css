@@ -1139,6 +1139,10 @@ header .mobile-menu-block {
 
 /* home fields */
 
+.wrap-value {
+    position: relative;
+    margin-bottom: 30px;
+}
 
 .wrap-fieldwork {
     position: relative;
@@ -1197,6 +1201,71 @@ header .mobile-menu-block {
     display: inline-block;
     margin: 20px 0;
     margin-right: 0px;
+}
+/* page project */
+
+.page-branch-title .title {
+    margin: 20px 0;
+}
+
+.ls-project {
+    position: relative;
+}
+
+.ls-project .item {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #e6e6e6;
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+.ls-project .item .wrap-thumbnail {
+    position: relative;
+}
+
+.ls-project .item .wrap-thumbnail .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4) url('../images/ico-eye.png') no-repeat center center;
+    opacity: 0;
+}
+
+.ls-project .item:hover .wrap-thumbnail .overlay, .ls-project .item:focus .wrap-thumbnail .overlay {
+    opacity: 1;
+}
+
+.ls-project .item .title {
+    font-size: 14px;
+    color: #292931;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.ls-project .item .title span {
+    display: block;
+    font-size: 13px;
+    color: #2e56a6;
+    text-transform: none;
+}
+
+.ls-project .item:hover {
+    border-bottom: 3px solid #2e56a6;
+    background: #d89d29;
+    margin-bottom: 13px;
+    -webkit-box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+.ls-project .item:hover .title {
+    color: #fff;
+}
+
+.ls-project .item:hover .title span {
+    color: #fff;
 }
 
 /* footer */
