@@ -3,9 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="48b7f7d8-67d5-4c65-875b-41605e5ce1a4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/land/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/land/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/land/functions - Copy.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/land/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/land/inc/register_custom_postype.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/inc/register_custom_postype.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/land/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/page-home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/land/single-du-an.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/single-du-an.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/land/taxonomy-danh-muc-du-an - Copy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/land/taxonomy-danh-muc-du-an.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/taxonomy-danh-muc-du-an.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/03/6_88201794753-300x225.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/03/banerth_28112017152141-300x168.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/03/bien_28720171775-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/03/bien_28720171775-300x212.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/03/bien_28720171775.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/03/img-rosena-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/03/img-rosena-225x300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/03/img-rosena-520x520.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/03/img-rosena.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2019/03/tong-quan-vogue-resort-nha-trang-520x520.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,35 +36,56 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/land/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="1209" selection-start-line="1209" selection-end-line="1209" />
+            <state relative-caret-position="272">
+              <caret line="1322" column="16" selection-start-line="1322" selection-end-line="1322" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/land/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="130" column="38" selection-start-line="130" selection-start-column="38" selection-end-line="130" selection-end-column="38" />
+            <state relative-caret-position="2227">
+              <caret line="131" column="36" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="taxonomy-danh-muc-du-an.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/land/taxonomy-danh-muc-du-an.php">
+      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/land/category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="425">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register_custom_postype.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/land/inc/register_custom_postype.php">
+      <file leaf-file-name="page-home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/land/page-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+            <state relative-caret-position="17">
+              <caret line="144" column="18" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-intro.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/land/page-intro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="215" column="46" selection-start-line="215" selection-start-column="46" selection-end-line="215" selection-end-column="46" />
+              <folding>
+                <element signature="e#11828#11834#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/hoangphuc/template.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21930">
+              <caret line="1290" selection-start-line="1290" selection-end-line="1290" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -56,29 +94,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.page-header ul.navbar-nav li</find>
-      <find>.home-gallery .bx-wrapper .bx-prev</find>
-      <find>.page-home .wrap-video</find>
-      <find>.page-branch-title .title.line-title</find>
-      <find>.box-category-wrapper</find>
-      <find>.box-categorysub</find>
-      <find>.video-content</find>
-      <find>.video-content .prev_video_slider</find>
-      <find>.video-content .item.active, .video-content .item:hover</find>
-      <find>.page-home .news-content</find>
-      <find>.content-project .block_project</find>
-      <find>.wrap-project</find>
-      <find>.wrap-news</find>
-      <find>.wrap-fieldwork</find>
-      <find>.wrap-partner .title</find>
-      <find>.ls-partners</find>
-      <find>marginright30</find>
       <find>.footer-coppyright</find>
       <find>prev_video_slider</find>
       <find>project</find>
       <find>thumb_img</find>
       <find>bfi_thumb</find>
       <find>.ls-project .item .wrap-thumbnail .overlay</find>
+      <find>box-project</find>
+      <find>.project-location</find>
+      <find>CƠ HỘI ĐẦU TƯ</find>
+      <find>ĐIỂM NỔI BẬT TRONG THIẾT KẾ KIẾN TRÚC</find>
+      <find>.note li</find>
+      <find>.project-invest .box-invest</find>
+      <find>body</find>
+      <find>THIẾT KẾ TỔNG THỂ</find>
+      <find>.ls-location .title</find>
+      <find>.list-share:</find>
+      <find>$found_key</find>
+      <find>.page-news .news-content</find>
+      <find>.news-list .item</find>
+      <find>.post-detail .date-time</find>
+      <find>.post-other .item .news-thumbnail</find>
+      <find>.paging a.pPrev</find>
+      <find>.page-info .wrap-intro .title</find>
+      <find>.contact-form</find>
+      <find>off</find>
+      <find>.page-branch-title .title</find>
+      <find>.line-break</find>
+      <find>.bt-submit</find>
+      <find>.wrap-value .wrap-thumbnail</find>
+      <find>.box-note</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -87,9 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/land/single.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/land/category.php" />
-        <option value="$PROJECT_DIR$/../test.php" />
         <option value="$PROJECT_DIR$/../hd/index.php" />
         <option value="$PROJECT_DIR$/../hd/configuration.php" />
         <option value="$PROJECT_DIR$/../networksaigon/configuration.php" />
@@ -99,19 +141,30 @@
         <option value="$PROJECT_DIR$/wp-content/themes/land/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/single-video.php" />
         <option value="$PROJECT_DIR$/../green/wp-config.php" />
-        <option value="$USER_HOME$/Desktop/hoangphuc/template.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/land/page-home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/land/single-du-an.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/land/css/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/archive-du-an.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/land/inc/register_custom_postype.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/archive.php" />
         <option value="$PROJECT_DIR$/../sunwell/wp-content/themes/sunwell/index.php" />
         <option value="$PROJECT_DIR$/../toyennguyenchat/wp-content/themes/toyennguyenchat/css/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/land/taxonomy-danh-muc-du-an.php" />
+        <option value="$PROJECT_DIR$/../test.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$USER_HOME$/Desktop/hoangphuc/template.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/single-du-an.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/inc/register_custom_postype.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/archive-tuyen-dung.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/single-tuyen-dung.php" />
+        <option value="$PROJECT_DIR$/../toyennguyenchat/.htaccess" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/category.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/taxonomy-danh-muc-du-an.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/page-home.php" />
+        <option value="$PROJECT_DIR$/../pixel/wp-config.php" />
+        <option value="$PROJECT_DIR$/../pixel/wp-content/themes/Jupiter-child/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/contact.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/css/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/page-intro.php" />
       </list>
     </option>
   </component>
@@ -125,16 +178,16 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,23 +213,17 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="land" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hoangphuc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hoangphuc" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="land" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/works/htdocs/hoangphuc/wp-content/themes/land/archive-tuyen-dung.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../banhang" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -216,18 +263,26 @@
       <workItem from="1553565919500" duration="621000" />
       <workItem from="1553582984594" duration="11689000" />
       <workItem from="1553649971082" duration="603000" />
-      <workItem from="1553657166447" duration="24788000" />
+      <workItem from="1553657166447" duration="25462000" />
+      <workItem from="1553694176715" duration="13021000" />
+      <workItem from="1553737195857" duration="11794000" />
+      <workItem from="1553760441805" duration="3364000" />
+      <workItem from="1553821867936" duration="19596000" />
+      <workItem from="1554081508628" duration="1184000" />
+      <workItem from="1554167306020" duration="19486000" />
+      <workItem from="1554254290073" duration="8074000" />
+      <workItem from="1554277503400" duration="7878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97475000" />
+    <option name="totallyTimeSpent" value="182546000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24377745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2635432" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32843137" />
@@ -250,19 +305,19 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24377745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -276,133 +331,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/single.php" />
-    <entry file="file://$PROJECT_DIR$/../test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hd/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/configuration(1).php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="102" lean-forward="true" selection-start-line="3" selection-start-column="102" selection-end-line="3" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../networksaigon/configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hd/configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="58" column="64" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sunwell/wp-content/themes/sunwell/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="82" column="81" selection-start-line="79" selection-start-column="12" selection-end-line="85" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sunwell/wp-content/themes/sunwell/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="70" column="7" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="70" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../toyennguyenchat/wp-content/themes/toyennguyenchat/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="75" column="84" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/slick-theme.min.css" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/ReduxCore/theme-option.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="135" column="37" selection-start-line="135" selection-start-column="33" selection-end-line="135" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../toyennguyenchat/wp-content/themes/toyennguyenchat/page-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="82" column="83" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/content-video.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/archive-video.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../toyennguyenchat/wp-content/themes/toyennguyenchat/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../landkir/wp-content/themes/landkir/single-service.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="50" column="60" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="50" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../landkir/wp-content/themes/landkir/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="112" column="5" lean-forward="true" selection-start-line="108" selection-start-column="4" selection-end-line="112" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../joomla3/administrator/components/com_jk8_products/models/fields/parentselect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../green/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../joomla3/administrator/components/com_jk8_products/tables/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="65" lean-forward="true" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="26" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -431,38 +359,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/single-du-an.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../sunwell/wp-content/themes/sunwell/inc/jobs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/page-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="289" column="36" selection-start-line="289" selection-start-column="36" selection-end-line="289" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/hoangphuc/template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="1140" column="1" selection-start-line="1081" selection-end-line="1140" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/single-video.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="77" column="42" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -473,27 +373,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../sunwell/wp-content/themes/sunwell/page-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="194" column="46" lean-forward="true" selection-start-line="186" selection-start-column="44" selection-end-line="194" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/archive-du-an.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/media.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="272" column="9" selection-start-line="272" selection-start-column="9" selection-end-line="272" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#br#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -532,13 +415,6 @@
     <entry file="file://$PROJECT_DIR$/../Haikyu/wp-content/themes/btgame/taxonomy-product-cat.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="1209" selection-start-line="1209" selection-end-line="1209" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Haikyu/wp-content/themes/btgame/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -567,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/taxonomy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -581,24 +450,228 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/inc/register_custom_postype.php">
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+        <state relative-caret-position="306">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/taxonomy-danh-muc-du-an.php">
+    <entry file="file://$PROJECT_DIR$/../sunwell/wp-content/themes/sunwell/single-job.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="-238">
+          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="37" column="17" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/archive-tuyen-dung.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../toyennguyenchat/wp-content/themes/toyennguyenchat/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pixel/wp-content/themes/Jupiter-child/taxonomy-portfolio_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="10" selection-start-line="16" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tuixachsunwell/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/single-tuyen-dung.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../toyennguyenchat/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/archive-video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../green/wp-content/themes/themes/green-child/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../toyennguyenchat/wp-content/themes/toyennguyenchat/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="134" lean-forward="true" selection-start-line="32" selection-start-column="108" selection-end-line="32" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../toyennguyenchat/wp-content/themes/toyennguyenchat/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../toyennguyenchat/wp-content/themes/toyennguyenchat/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/single-video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/single-du-an.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-218">
+          <caret line="259" column="10" lean-forward="true" selection-start-line="245" selection-start-column="7" selection-end-line="259" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/inc/register_custom_postype.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/land/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="130" column="38" selection-start-line="130" selection-start-column="38" selection-end-line="130" selection-end-column="38" />
+        <state relative-caret-position="2227">
+          <caret line="131" column="36" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/archive-du-an.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="14" selection-start-line="70" selection-start-column="12" selection-end-line="80" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/taxonomy-danh-muc-du-an.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="115" column="36" selection-start-line="115" selection-start-column="36" selection-end-line="115" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pixel/wp-content/themes/Jupiter-child/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="246" selection-start-line="246" selection-end-line="252" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../landkir/wp-content/themes/landkir/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="93" column="56" lean-forward="true" selection-start-line="93" selection-start-column="56" selection-end-line="93" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pixel/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sunwell/wp-content/themes/sunwell/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/hoangphuc/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21930">
+          <caret line="1290" selection-start-line="1290" selection-end-line="1290" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="1322" column="16" selection-start-line="1322" selection-end-line="1322" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="68" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="144" column="18" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../joomla3/components/com_jk8_products/views/products/tmpl/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="86" column="35" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/page-intro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="215" column="46" selection-start-line="215" selection-start-column="46" selection-end-line="215" selection-end-column="46" />
+          <folding>
+            <element signature="e#11828#11834#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

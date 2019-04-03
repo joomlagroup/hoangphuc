@@ -146,6 +146,16 @@ $page_id = $post->ID;
         </div>
     </div>
 
+    <?php
+    $args = array(
+        'orderby' => 'desc',
+        'posts_per_page' => 3
+    );
+
+    $news = new WP_Query($args);
+    if($news->have_posts()):
+    ?>
+
     <div class="wrap-news">
         <div class="container">
             <div class="row">
@@ -155,30 +165,33 @@ $page_id = $post->ID;
 
                 <div class="col-md-12">
                     <div class="news-content row">
-                        <?php for ($i=0;$i<3;$i++): ?>
-                            <div class="col-xs-12 col-sm-4 item">
-                                <div class="row">
-                                    <a class="col-md-12 news-thumbnail" href="#" style="background-image:url(http://baolongland.com.vn/assets/uploads/images/post/banerth%E1%BA%BB_28112017152141.jpg);">
-                                        <div class="date-time">28/11/2017</div>
-                                    </a>
-                                    <div class="col-md-12 news-info">
-                                        <div class="title"><a href="#">Ưu đãi của thẻ "Gold Member"</a></div>
-                                        <div class="description"><a href="#">Nhằm tri&nbsp;ân
-                                                tất cả những khách hàng&nbsp;đã tin tưởng và&nbsp;đồng hành với dự&nbsp;án
-                                                Rosena trong thời gian qua.&nbsp;Đồng thời,&nbsp;đánh dấu mốc thời gian hoàn
-                                                thành phần cọc của dự&nbsp;án, Công ty Cổ Phần Bất&nbsp;Động Sản Bảo Long gửi
-                                                tặng tất cả Khách hàng thẻ Rosena Member với nhiều&nbsp;ưu&nbsp;đãi hấp dẫn.</a>
-                                        </div>
+                        <?php while($news->have_posts()) : $news->the_post();
+                            $title = get_the_title();
+                            $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'medium');
+                            $url = get_the_permalink();
+                            ?>
+                            <div class="col-xs-6 col-sm-4 item">
+                                <a class="col-md-12 news-thumbnail" href="<?php echo $url ?>" style="background-image:url('<?php echo $featured_img_url ?>');">
+                                    <div class="date-time"><?php the_time('d/m/Y') ?></div>
+                                </a>
+                                <div class="col-xs-12 news-info">
+                                    <div class="title"><a href="<?php echo $url ?>"><?php echo $title ?></a></div>
+                                    <div class="description">
+                                        <a href="<?php echo $url ?>">
+                                            <?php the_excerpt(); ?>
+                                        </a>
                                     </div>
                                 </div>
+                                <div class="clearfix"></div>
                             </div>
-                        <?php endfor; ?>
+                        <?php endwhile; ?>
                     </div>
                 </div>
                 <div class="clearfix"></div>
             </div>
         </div>
     </div>
+    <?php endif; ?>
 
     <div class="wrap-project">
         <div class="container content-project">
@@ -189,30 +202,43 @@ $page_id = $post->ID;
                 <div class="block_project col-md-12">
                     <div class="content">
                         <div class="list_project">
-                                    <?php for ($i=0;$i<4;$i++): ?>
-                                    <div>
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <a class="item" href="#">
-                                                    <div class="box-item">
-                                                        <img class="img-responsive" src="http://baolongland.com.vn/assets/uploads/images/post/vogue-resort-nha-trang_2932017153228.jpg" alt="VOGUE RESORT - Nha Trang">
-                                                        <div class="bg-project" style="background-image:url(http://baolongland.com.vn/assets/uploads/myfiles/images/project/logo-vogue-resort.png)"></div>
-                                                    </div>
-                                                    <span>VOGUE RESORT - Nha Trang</span>
-                                                </a>
-                                            </div>
-                                            <div class="col-6">
-                                                <a class="item" href="#">
-                                                    <div class="box-item">
-                                                        <img class="img-responsive" src="http://baolongland.com.vn/assets/uploads/images/post/vogue-resort-nha-trang_2932017153228.jpg" alt="VOGUE RESORT - Nha Trang">
-                                                        <div class="bg-project" style="background-image:url(http://baolongland.com.vn/assets/uploads/myfiles/images/project/logo-vogue-resort.png)"></div>
-                                                    </div>
-                                                    <span>VOGUE RESORT - Nha Trang</span>
-                                                </a>
-                                            </div>
-                                        </div>
+                            <?php
+                            $posts_per_page = 30;
+                            $args = array('post_type' => 'du-an','posts_per_page' => 20);
+                            $projects = new WP_Query($args);
+
+                            $count = 0;
+                            $column = 2;
+                            while($projects->have_posts()) : $projects->the_post();
+                                $id = get_the_ID();
+                                $title = get_the_title();
+                                $featured_img_url = get_the_post_thumbnail_url($id,'featuredImageProject');
+                                $logo = get_field('project_logo',$id );
+                                if($count % $column == 0) { echo '<div><div class="row">'; }
+                                echo '<div class="col-6">'; // always open column
+                                ?>
+                                <a class="item" href="<?php the_permalink() ?>">
+                                    <div class="box-item">
+                                        <img class="img-responsive" src="<?php echo $featured_img_url ?>" alt="<?php echo $title ?>">
+                                        <?php if($logo): ?>
+                                        <div class="bg-project" style="background-image:url(<?php echo $logo ?>)"></div>
+                                        <?php endif; ?>
                                     </div>
-                                    <?php endfor; ?>
+                                    <span><?php echo $title ?></span>
+                                </a>
+                                <?php
+                                echo '</div>'; // always close column
+
+                                // close .form-group and .row every two loops?
+                                if($count % $column != 0) { echo '</div></div>'; }
+
+                                $count++;
+                            endwhile;
+                            if ($count % $column != 0) {
+                                // close last DIV if an odd number of fields
+                                echo '</div></div>';
+                            }
+                            ?>
                         </div>
                         <div class="text-center">
                             <a href="javascript:;" class="prev_project_slider"></a>

@@ -137,7 +137,7 @@ function create_custom_post_type_du_an() {
         'label'               => __( 'Dự Án'),
         'description'         => __( 'Dự Án'),
         'labels'              => $labels,
-        'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'custom-fields'),
+        'supports'            => array( 'title', 'editor', 'author', 'thumbnail', 'revisions', 'custom-fields'),
         'public'              => true,
         'hierarchical'        => false,
         'show_ui'             => true,
@@ -156,4 +156,42 @@ function create_custom_post_type_du_an() {
 }
 
 add_action( 'init', 'create_custom_post_type_du_an', 0 );
+
+function create_custom_post_type_tuyen_dung() {
+    $labels = array(
+        'name'                => __( 'Tuyển Dụng' ),
+        'singular_name'       => __( 'Tuyển Dụng'),
+        'menu_name'           => __( 'Tuyển Dụng'),
+        'parent_item_colon'   => __( 'Parent Tuyển Dụng'),
+        'all_items'           => __( 'Tất Cả Tuyển Dụng'),
+        'view_item'           => __( 'Xem Tuyển Dụng'),
+        'add_new_item'        => __( 'Thêm Mới Tuyển Dụng'),
+        'add_new'             => __( 'Thêm Mới'),
+        'edit_item'           => __( 'Chỉnh Sửa Tuyển Dụng'),
+        'update_item'         => __( 'Cập Nhật Tuyển Dụng'),
+        'search_items'        => __( 'Tìm Tuyển Dụng'),
+        'not_found'           => __( 'Không Tìm Thấy'),
+        'not_found_in_trash'  => __( 'Not found in Trash')
+    );
+    $args = array(
+        'label'               => __( 'Tuyển Dụng'),
+        'description'         => __( 'Tuyển Dụng'),
+        'labels'              => $labels,
+        'supports'            => array( 'title','editor','revisions', 'custom-fields'),
+        'public'              => true,
+        'hierarchical'        => false,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'has_archive'         => true,
+        'can_export'          => true,
+        'exclude_from_search' => false,
+        'yarpp_support'       => true,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'page'
+    );
+    register_post_type( 'tuyen-dung', $args );
+}
+add_action( 'init', 'create_custom_post_type_tuyen_dung', 0 );
 

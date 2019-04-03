@@ -36,16 +36,6 @@ if (function_exists('add_theme_support')) {
     add_theme_support('post-thumbnails');
 }
 
-
-function thumb_img($post_id, $h, $w, $q)
-{ //lấy ảnh dùng id
-
-    // echo bloginfo('template_url');
-    // echo '/timthumb.php?src='.get_featured_img($post_id).'&amp;h='.$h.'&amp;w='.$w.'&amp;q='.$q;
-    $params = array('width' => $w, 'height' => $h, 'crop' => false, 'opacity' => $q);
-    echo bfi_thumb(get_featured_img($post_id), $params);
-}
-
 if(!is_admin()){
     $jsUrl = get_template_directory_uri() . '/js';
     wp_enqueue_script('script',$jsUrl . '/main.js',array('jquery'),'1.0',true);
@@ -81,7 +71,7 @@ function get_youtube_video_ID($youtube_video_url) {
 
 add_filter('template_include', function($default_template) {
 
-    if (is_post_type_archive('video' or is_paged())) {
+    if (is_post_type_archive('video')) {
 
         $default_template  = get_template_directory().'/single-video.php';
 
@@ -103,6 +93,17 @@ add_filter('template_include', function($default_template) {
 
     }
 
+    //for tuyen-dung
+    if (is_post_type_archive('tuyen-dung')) {
+
+        $default_template  = get_template_directory().'/single-tuyen-dung.php';
+
+    } else if ('tuyen-dung' == get_post_type() ) {
+
+        $default_template  = get_template_directory().'/single-tuyen-dung.php';
+
+    }
+
     // Load new template also fallback if both condition fails load default
     return $default_template;
 
@@ -111,7 +112,7 @@ add_filter('template_include', function($default_template) {
 
 
 add_theme_support( 'post-thumbnails');
-add_image_size('featuredImageProject', 520, 520, array( 'center', 'center'));
+add_image_size('featuredImageProject', 720, 520, array( 'center', 'center'));
 
 function devvn_wp_corenavi($custom_query = null, $paged = null) {
     global $wp_query;
@@ -127,8 +128,8 @@ function devvn_wp_corenavi($custom_query = null, $paged = null) {
         'current' => max( 1, $paged ),
         'total' => $total,
         'mid_size' => '10', // Số trang hiển thị khi có nhiều trang trước khi hiển thị ...
-        'prev_text'    => __('Trang Trước','devvn'),
-        'next_text'    => __('Trang Kế','devvn'),
+        'prev_text'    => __('&nbsp;','devvn'),
+        'next_text'    => __('&nbsp;','devvn'),
     ) );
     if($total > 1) echo '</div>';
 }

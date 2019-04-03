@@ -113,7 +113,7 @@ $cats = get_categories($args);
                         <div class="clearfix"></div>
                     </div>
                     <div class="pagination">
-                        <div class="pull-right">
+                        <div class="">
                             <?php if (function_exists('devvn_wp_corenavi') and ($option_posts_per_page <= $posts_per_page)) devvn_wp_corenavi($projects); ?>
                         </div>
                     </div>
