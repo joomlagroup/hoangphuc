@@ -39,6 +39,7 @@ if (function_exists('add_theme_support')) {
 if(!is_admin()){
     $jsUrl = get_template_directory_uri() . '/js';
     wp_enqueue_script('script',$jsUrl . '/main.js',array('jquery'),'1.0',true);
+    wp_enqueue_script('script_fancybox',$jsUrl . '/fancybox/jquery.fancybox.pack.js','1.0',true);
 }
 
 if ( is_user_logged_in() ) {
@@ -134,5 +135,34 @@ function devvn_wp_corenavi($custom_query = null, $paged = null) {
     if($total > 1) echo '</div>';
 }
 
+//ajax album hinh
 
 
+add_action( 'wp_ajax_loadpost', 'loadpost_init' );
+add_action( 'wp_ajax_nopriv_loadpost', 'loadpost_init' );
+function loadpost_init() {
+
+    if ( !wp_verify_nonce( $_REQUEST['nonce'], "check_security_ajax")) {
+        exit("No naughty business please");
+    }
+
+    $post_id = (int)$_REQUEST["post_id"];
+    if($post_id){
+
+        $album_images = get_field('album_images',$post_id);
+        if($album_images):
+
+            foreach ($album_images as $key=>$item):
+                $img_url  = $item['img'];
+
+                echo '<a rel="album-'.$post_id.'" href="'.$img_url.'" title=""></a>';
+            endforeach;
+
+        endif;
+    }
+
+    $result = ob_get_clean(); //cho hết bộ nhớ đệm vào biến $result
+    wp_send_json_success($result); // trả về giá trị dạng json
+
+    die();//bắt buộc phải có khi kết thúc
+}

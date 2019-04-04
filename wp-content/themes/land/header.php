@@ -18,12 +18,14 @@ global $tp_options;
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700&amp;subset=vietnamese" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animations.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/js/fancybox/jquery.fancybox.css">
     <title><?php wp_title(''); ?><?php if (wp_title('', false)) {
             echo ' :';
         } ?><?php bloginfo('name'); ?></title>
     <script>
         var ajax_link = "<?php echo home_url()."/wp-admin/admin-ajax.php" ?>";
         var home = '<?php echo home_url() ?>';
+        var ajaxurl = "<?php echo admin_url('admin-ajax.php') ?>";
 
     </script>
 

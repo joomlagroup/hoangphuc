@@ -1,94 +1,125 @@
 <?php /* Template Name: Home */
 $page_id = $post->ID;
 
+$home_year_created = get_field('home_year_created',$page_id );
+$home_year_created_text = get_field('home_year_created_text',$page_id );
+$home_number_employer =  get_field('home_number_employer',$page_id );
+$home_number_employer_text =  get_field('home_number_employer_text',$page_id );
+$home_number_district =  get_field('home_number_district',$page_id );
+$home_number_district_text =  get_field('home_number_district_text',$page_id );
+$home_number_project =  get_field('home_number_project',$page_id );
+$home_number_project_text =  get_field('home_number_project_text',$page_id );
+
+$home_field_block_1_title = get_field('home_field_block_1_title',$page_id );
+$home_field_block_1_desc = get_field('home_field_block_1_desc',$page_id );
+$home_field_block_1_img = get_field('home_field_block_1_img',$page_id );
+$home_field_block_2_title = get_field('home_field_block_2_title',$page_id );
+$home_field_block_2_desc = get_field('home_field_block_2_desc',$page_id );
+$home_field_block_2_img = get_field('home_field_block_2_img',$page_id );
+$home_field_block_3_title = get_field('home_field_block_3_title',$page_id );
+$home_field_block_3_desc = get_field('home_field_block_3_desc',$page_id );
+$home_field_block_3_img = get_field('home_field_block_3_img',$page_id );
+$home_field_block_4_title = get_field('home_field_block_4_title',$page_id );
+$home_field_block_4_desc = get_field('home_field_block_4_desc',$page_id );
+$home_field_block_4_img = get_field('home_field_block_4_img',$page_id );
+
+$home_value_title = get_field('home_value_title',$page_id );
+$home_value_text = get_field('home_value_text',$page_id );
+$home_value_img = get_field('home_value_img',$page_id );
+
+$home_investor_title = get_field('home_investor_title',$page_id );
+$home_list_partners_title = get_field('home_list_partners_title',$page_id );
 ?>
 <?php include 'header.php' ?>
 
 <div class="homepage">
 
     <div class="setionSliders">
+        <?php
+        $banners_slider = get_field('hompage_sliders',$page_id );
+        if($banners_slider):
+        ?>
         <div class="slideHome">
+            <?php
+            foreach ($banners_slider as $banner):
+            $image_url          = $banner['img'];
+            $title              = $banner['title'];
+            $description        = $banner['description'];
+            //get_template_directory_uri()
+            ?>
             <div class="item">
-                <img src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/slide/HomeSlide-Vogue-Restaurant.jpg">
+                <img src="<?php echo $image_url ?>">
                 <div class="slide-content animatedParent ">
                     <div class="doanimation fadeInRightShort delay-1000 wrap-slidehome animated go">
-                        <span>BIỆT THỰ TẠI VOGUE RESORT</span>
-                        <p>
-                            Sở hữu một căn biệt thự đó là sở hữu một tác phẩm có kiến trúc và thiết kế độc đáo. Chắc chắn sẽ đem đến cho chủ sở hữu cơ hội nghỉ dưỡng và cơ hội đầu tư tuyệt vời.
-                        </p>
+                        <?php if($title): ?>
+                        <span><?php echo $title ?></span>
+                        <?php endif; ?>
+                        <?php if($description): ?>
+                        <p><?php echo $description ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
-
-            <div class="item">
-                <img src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/slide/HomeSlide-Vogue-Spa.jpg">
-                <div class="slide-content animatedParent ">
-                    <div class="doanimation fadeInRightShort delay-1000 wrap-slidehome animated go">
-                        <span>VOGUE RESORT POOLBAR</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <img src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/slide/HomeSlide-Vogue-MasterBedroom.jpg">
-                <div class="slide-content animatedParent ">
-                    <div class="doanimation fadeInRightShort delay-1000 wrap-slidehome animated go">
-                        <span>VOGUE RESORT RESTAURANT</span>
-                        <p>
-                            Sở hữu một căn biệt thự đó là sở hữu một tác phẩm có kiến trúc và thiết kế độc đáo. Chắc chắn sẽ đem đến cho chủ sở hữu cơ hội nghỉ dưỡng và cơ hội đầu tư tuyệt vời.
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
-        <div class="wrap-home-links">
+        <?php endif; ?>
+        <?php
+        $hompage_featured_project = get_field('hompage_featured_project',$page_id );
+        if($hompage_featured_project){
+            $arr_hompage_featured_project = explode(',',$hompage_featured_project);
+            $args = array('post_type' => 'du-an','post__in' => $arr_hompage_featured_project,'posts_per_page' => 3);
+            $projects = new WP_Query($args);
+        }
+        ?>
 
+        <?php if($projects->have_posts()): ?>
+        <div class="wrap-home-links">
             <div class="container">
                 <ul class="ls-home-links row">
-                    <li class="item col-xs-6 col-sm-4">
-                        <a href="#">
-                            <img alt="Vogue Resort - Villas &amp; Hotel" class="img-responsive inline-block" src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/01-Vogue-Resort-Villas-Hotel.jpg">
-                            <span class="title">Vogue Resort - Villas &amp; Hotel</span>
+                    <?php
+                    while($projects->have_posts()) : $projects->the_post();
+                    $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'featuredImageProject');
+                    $title = get_the_title();
+                    ?>
+                    <li class="fadeInUpShort animated delay-250 go item col-xs-6 col-sm-4">
+                        <a href="<?php the_permalink(); ?>">
+                            <?php if($featured_img_url): ?>
+                            <img alt="<?php echo $title ?>" class="img-responsive inline-block" src="<?php echo $featured_img_url ?>">
+                            <?php endif; ?>
+                            <span class="title"><?php echo $title ?></span>
                         </a>
                     </li>
-                    <li class="item col-xs-6 col-sm-4">
-                        <a href="#">
-                            <img alt="Rosena - Căn hộ cao cấp" class="img-responsive inline-block" src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/01-Vogue-Resort-Villas-Hotel.jpg">
-                            <span class="title">Rosena - Căn hộ cao cấp</span>
-                        </a>
-                    </li>
-                    <li class="item col-xs-6 col-sm-4">
-                        <a href="#" target="_bank">
-                            <img alt="Sân Golf Cửa Lò - Nghệ An" class="img-responsive inline-block" src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/03-Golf-CuaLo.jpg">
-                            <span class="title">Sân Golf Cửa Lò - Nghệ An</span>
-                        </a>
-                    </li>
-
+                    <?php endwhile; ?>
                 </ul>
             </div>
         </div>
+        <?php endif; ?>
     </div>
 
 
     <div class="wrap-overview">
         <div class="container content-overview">
             <div class="row">
-                <div class="col-xs-6 col-sm-3">
-                    <span class="title">1989</span>
-                    Năm thành lập
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <span class="title">500+</span>
-                    Cán bộ công nhân viên
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <span class="title">5+</span>
-                    Tỉnh thành hiện diện
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <span class="title">7+</span>
-                    Dự án đang và sẽ triển khai
-                </div>
+                <?php if($home_year_created): ?>
+                    <div class="col-xs-6 col-sm-3">
+                        <span class="title"><?php echo $home_year_created ?></span> <?php echo $home_year_created_text ?>
+                    </div>
+                <?php endif; ?>
+                <?php if($home_number_employer): ?>
+                    <div class="col-xs-6 col-sm-3">
+                        <span class="title"><?php echo $home_number_employer ?></span> <?php echo $home_number_employer_text ?>
+                    </div>
+                <?php endif; ?>
+                <?php if($home_number_district): ?>
+                    <div class="col-xs-6 col-sm-3">
+                        <span class="title"><?php echo $home_number_district ?></span> <?php echo $home_number_district_text ?>
+                    </div>
+                <?php endif; ?>
+                <?php if($home_number_project): ?>
+                    <div class="col-xs-6 col-sm-3">
+                        <span class="title"><?php echo $home_number_project ?></span> <?php echo $home_number_project_text ?>
+                    </div>
+                <?php endif; ?>
             </div>
         </div>
     </div>
@@ -254,34 +285,39 @@ $page_id = $post->ID;
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="page-branch-title ">
-                        <h3 class="title line-title small-title">lĩnh vực hoạt động</h3>
+                    <?php if($home_title_field_company): ?>
+                        <div class="page-branch-title ">
+                            <h3 class="title line-title small-title"><?php echo $home_title_field_company ?></h3>
+                        </div>
+                    <?php endif; ?>
+                </div>
+                <?php if($home_title_field_company_text): ?>
+                    <div class="col-md-12 offset-lg-1 col-lg-10 marginbottom30">
+                        <p><?php echo $home_title_field_company_text ?></p>
                     </div>
-                </div>
-                <div class="col-xs-12 col-lg-offset-1 col-lg-10 marginbottom30">
-                    <p>Bảo Long Land  đang từng bước đầu tư và phát triển các dự án trên tinh thần thận trọng, chuyên nghiệp, không ngừng học hỏi. Khi phát triển các dự án bất động sản Bảo Long Land  tuân thủ, thực hiện, triển khai đầu tư theo đúng 5 tiêu chí: An toàn; Kỹ thuật và chất lượng; Tiến độ; Hiệu quả đầu tư và Tính thẩm mỹ. Mong muốn lớn nhất của Bảo Long Land  là tạo ra những giá trị bền vững theo thời gian.</p>
-                </div>
+                <?php endif; ?>
                 <div class="clearfix"></div>
                 <div class="col-xs-12 col-sm-6 col-md-3 text-center">
-                    <img alt="Xây dựng dự án bđs" class="img-responsive inline-block" src="http://baolongland.com.vn/assets/uploads/myfiles/images/aboutus/ico-xay-dung.svg">
-                    <span>xây dựng<br>dự án bđs</span>
-                    <p>Xây dựng các dự án BĐS theo 5 tiêu chí: An toàn; Kỹ thuật và chất lượng; Tiến độ; Hiệu quả đầu tư và Tính thẩm mỹ.</p>
+                    <img alt="<?php echo $home_field_block_1_title ?>" class="img-responsive inline-block" src="<?php echo $home_field_block_1_img ?>">
+                    <span><?php echo $home_field_block_1_title ?></span>
+                    <p><?php echo $home_field_block_1_desc ?></p>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                    <img alt="<?php echo $home_field_block_2_title ?>" class="img-responsive inline-block" src="<?php echo $home_field_block_2_img ?>">
+                    <span><?php echo $home_field_block_2_title ?></span>
+                    <p><?php echo $home_field_block_2_desc ?></p>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                    <img alt="<?php echo $home_field_block_3_title ?>" class="img-responsive inline-block" src="<?php echo $home_field_block_3_img ?>">
+                    <span><?php echo $home_field_block_3_title ?></span>
+                    <p><?php echo $home_field_block_3_desc ?></p>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 text-center">
-                    <img alt="Đầu tư &amp; phát triển dự án" class="img-responsive inline-block" src="http://baolongland.com.vn/assets/uploads/myfiles/images/aboutus/ico-dau-tu.svg">
-                    <span>Đầu tư &amp;<br>phát triển dự án</span>
-                    <p>Đầu tư và phát triển các dự án trên tinh thần thận trọng, chuyên nghiệp, khoa học và không ngừng học hỏi.</p>
-                </div>
-                <div class="clearfix visible-sm"></div>
-                <div class="col-xs-12 col-sm-6 col-md-3 text-center">
-                    <img alt="Kinh doanh bất động sản" class="img-responsive inline-block" src="http://baolongland.com.vn/assets/uploads/myfiles/images/aboutus/ico-kinh-doanh.svg">
-                    <span>Kinh doanh<br>bất động sản</span>
-                    <p>Bảo Long Land  tập trung vào việc đáp ứng được nhu cầu thực tế của thị trường và của khách hàng.</p>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 text-center">
-                    <img alt="Thương mại &amp; dịch vụ" class="img-responsive inline-block" src="http://baolongland.com.vn/assets/uploads/myfiles/images/aboutus/ico-thuong-mai.svg">
-                    <span>Thương mại<br>&amp; dịch vụ</span>
-                    <p>Phối hợp với đối tác để triển khai các dịch vụ, khai thác dự án nhằm đem lại hiệu quả tốt nhất cho khách hàng.</p>
+                    <img alt="<?php echo $home_field_block_4_title ?>" class="img-responsive inline-block" src="<?php echo $home_field_block_4_img ?>">
+                    <span><?php echo $home_field_block_4_title ?></span>
+                    <p><?php echo $home_field_block_4_desc ?></p>
                 </div>
             </div>
         </div>
@@ -291,14 +327,21 @@ $page_id = $post->ID;
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 pull-right">
+                    <?php if($home_value_title): ?>
                     <div class="page-branch-title">
-                        <h3 class="title line-title small-title">Giá trị cốt lõi</h3>
+                        <h3 class="title line-title small-title"><?php echo $home_value_title ?></h3>
                     </div>
-                    <p>Các sản phẩm bất động sản của Bảo Long Land  tập trung vào việc đáp ứng được nhu cầu thực tế của thị trường, của khách hàng. Một sản phẩm bất động sản do Bảo Long Land  đầu tư và phát triển sẽ đem đến cho khách hàng ba giá trị cốt lõi: Giá trị sử dụng, giá trị khai thác và giá trị bền vững.</p>
-                    <a href="#">Xem thêm</a>
+                    <?php endif; ?>
+                    <?php if($home_value_text): ?>
+                    <p><?php echo $home_value_text ?></p>
+                    <a href="<?php echo home_url('gioi-thieu'); ?>">Xem thêm</a>
+                    <?php endif; ?>
+
                 </div>
                 <div class="col-xs-12 col-sm-6">
-                    <img alt="Giá trị cốt lõi" class="img-responsive inline-block margintop30" src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/gia-tri-cot-loi.jpg">
+                    <?php if($home_value_img): ?>
+                    <img alt="Giá trị cốt lõi" class="img-responsive inline-block margintop30" src="<?php echo $home_value_img ?>">
+                    <?php endif; ?>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -308,24 +351,45 @@ $page_id = $post->ID;
     <div class="wrap-partner">
         <div class="container">
             <div class="row">
+                <?php
+                $home_investor_sliders = get_field('home_investor_sliders',$page_id );
+                if($home_investor_sliders):
+                ?>
                 <div class="col-md-4">
-                    <h3 class="title title-color">Chủ đầu tư &amp; phát triển dự án:</h3>
-                    <img alt="New City Group" class="img-responsive img-logo marginright30" src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/logo-new-city-group.svg">
-                    <img alt="Bảo Long Land" class="img-responsive img-logo" src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/logo-bao-long-land.svg">
+                    <?php if($home_investor_title): ?>
+                    <h3 class="title title-color"><?php echo $home_investor_title ?></h3>
+                    <?php endif; ?>
+
+                    <?php
+                    $count = count($home_investor_sliders);
+                    foreach ($home_investor_sliders as $key=> $banner):
+                    $image_url          = $banner['img'];
+                    ?>
+                    <img alt="" class="img-responsive img-logo <?php if($count!=$key) echo 'marginright30'; ?> " src="<?php echo $image_url ?>">
+                    <?php endforeach; ?>
                 </div>
+                <?php endif; ?>
                 <div class="col-md-8">
+                    <?php if($home_list_partners_title): ?>
                     <h3 class="title title-color">Đối tác chiến lược:</h3>
+                    <?php endif; ?>
+
+                    <?php
+                    $home_list_partners_sliders = get_field('home_list_partners_sliders',$page_id );
+                    if($home_list_partners_sliders):
+                    ?>
                     <ul class="ls-partners">
+                        <?php
+                        $count = count($home_list_partners_sliders);
+                        foreach ($home_list_partners_sliders as $key=> $banner):
+                        $image_url          = $banner['img'];
+                        ?>
                         <li class="info" style="height: 100px;">
-                            <img alt="Dark Horse" class="img-responsive img-logo" src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/logo-dark-horse.svg">
+                            <img alt="" class="img-responsive img-logo" src="<?php echo $image_url ?>">
                         </li>
-                        <li class="info" style="height: 100px;">
-                            <img alt="IVB" class="img-responsive img-logo" src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/logo-ivb.svg">
-                        </li>
-                        <li class="info" style="height: 100px;">
-                            <img alt="Vietcombank" class="img-responsive img-logo" src="http://baolongland.com.vn/assets/uploads/myfiles/images/home/logo-vietcombank.svg">
-                        </li>
+                        <?php endforeach; ?>
                     </ul>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>

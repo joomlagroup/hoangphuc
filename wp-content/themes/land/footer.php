@@ -7,38 +7,44 @@
         <div class="container">
             <div class="row">
                 <div class="item item1 col-xs-12 col-sm-6 col-md-3" style="height: 83px;">
-                    <span>Địa chỉ liên hệ</span>
-                    <p>Lầu 9, Tòa nhà PDD,<br>162 Pasteur, Q.1, TP. HCM</p>
+                    <?php if($tp_options['footer_address_contact_title']): ?>
+                    <span><?php echo $tp_options['footer_address_contact_title'] ?></span>
+                    <?php endif; ?>
+                    <p><?php echo $tp_options['footer_address_contact_text'] ?></p>
                 </div>
                 <div class="item item2 col-xs-12 col-sm-6 col-md-3" style="height: 83px;">
-                    <span>Điện thoại</span>
-                    <a href="tel:(028) 3911 6666">(028) 3911 6666</a><br>
-                    <a href="tel:0901093333">090 109 3333</a><br>
-                    <a href="tel:0901330133">090 133 0133</a>
-
+                    <span><?php echo $tp_options['footer_phone_title'] ?></span>
+                    <?php echo $tp_options['footer_phone_text'] ?>
                 </div>
                 <div class="item item3 col-xs-12 col-sm-6 col-md-3" style="height: 83px;">
-                    <span>Email / Website</span>
-                    <p><a href="mailto:sales@baolongland.com.vn">sales@baolongland.com.vn</a></p>
+                    <span><?php echo $tp_options['footer_email_title'] ?></span>
+                    <p><a href="mailto:<?php echo $tp_options['footer_email_text'] ?>"><?php echo $tp_options['footer_email_text'] ?></a></p>
 
                 </div>
                 <div class="item item4 letter col-xs-12 col-sm-6 col-md-3" style="height: 83px;">
                     <span>Đăng ký nhận tin</span>
 
                     <div class="send-letter">
-                        <input class="txt-letter" id="txtLetterH" name="letter" placeholder="Email của bạn" type="text">
-                        <a class="bt-letter" href="#">Gửi</a>
+                        <?php echo do_shortcode('[contact-form-7 id="371" title="Đăng Kí Nhận Tin"]'); ?>
+                        <div class="clearfix"></div>
                     </div>
+
                 </div>
 
                 <div class="clearfix"></div>
                 <div class="col-md-12 last">
                     <ul class="ls-social">
-                        <li><a class="bt-facebook" href="#" target="_blank">Facebook</a></li>
-                        <li><a class="bt-youtube" href="#" target="_blank">Youtube</a></li>
+                        <?php if($tp_options['social_facebook']): ?>
+                        <li><a class="bt-facebook" href="<?php echo $tp_options['social_facebook'] ?>" target="_blank">Facebook</a></li>
+                        <?php endif; ?>
+                        <?php if($tp_options['social_youtube']): ?>
+                        <li><a class="bt-youtube" href="<?php echo $tp_options['social_youtube'] ?>" target="_blank">Youtube</a></li>
+                        <?php endif; ?>
                     </ul>
                     <div class="clearfix"></div>
-                    <div class="info">Bản quyền © 2019 thuộc HOANGPHUC. Developed by <a href="http://jpweb.vn" target="_blank">JPWEB</a></div>
+                    <?php if($tp_options['copyright']): ?>
+                    <div class="info"><?php echo $tp_options['copyright'] ?></div>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>

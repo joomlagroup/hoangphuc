@@ -153,7 +153,7 @@ $intro_value_block_3_img = get_field('intro_value_block_3_img',$page_id );
 
 
                         <div class="col-xs-12 col-sm-6 col-md-3 text-center">
-                            <img alt="Xây dựng dự án bđs" class="img-responsive inline-block" src="<?php echo $intro_field_block_1_img ?>">
+                            <img alt="<?php echo $intro_field_block_1_title ?>" class="img-responsive inline-block" src="<?php echo $intro_field_block_1_img ?>">
                             <span><?php echo $intro_field_block_1_title ?></span>
                             <p><?php echo $intro_field_block_1_desc ?></p>
                         </div>

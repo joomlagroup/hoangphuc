@@ -149,22 +149,52 @@ if (!class_exists('JPWEB_Theme_Options')) {
                 'fields' => array(
 
                     array(
-                        'id' => 'footer_description',
-                        'type' => 'textarea',
-                        'title' => __('Footer Desciption', 'theme_option'),
-                        'desc' => __('Footer Desciption', 'theme_option'),
-                    ),
-                    array(
-                        'id' => 'signed_url',
+                        'id' => 'footer_address_contact_title',
                         'type' => 'text',
-                        'title' => __('Signed URL', 'theme_option'),
-                        'desc' => __('Signed URL', 'theme_option'),
+                        'title' => __('Tiêu Đề Địa chỉ liên hệ', 'theme_option'),
+                        'desc' => __('Tiêu Đề liên hệ', 'theme_option'),
                     ),
                     array(
-                        'id' => 'signed_img',
-                        'type' => 'media',
-                        'title' => __('Signed Image', 'theme_option'),
-                        'desc' => __('Image that you want to use as Signed', 'theme_option'),
+                        'id' => 'footer_address_contact_text',
+                        'type' => 'text',
+                        'title' => __('Địa chỉ liên hệ', 'theme_option'),
+                        'desc' => __('Địa chỉ liên hệ (text)', 'theme_option'),
+                    ),
+                    array(
+                        'id' => 'footer_phone_title',
+                        'type' => 'text',
+                        'title' => __('Tiêu Đề Điện thoại', 'theme_option'),
+                        'desc' => __('Tiêu Đề  Điện thoại', 'theme_option'),
+                    ),
+                    array(
+                        'id' => 'footer_phone_text',
+                        'type' => 'textarea',
+                        'title' => __('Điện thoại', 'theme_option'),
+                        'desc' => __('Điện thoại', 'theme_option'),
+                    ),
+                    array(
+                        'id' => 'footer_email_title',
+                        'type' => 'text',
+                        'title' => __('Tiêu Đề Email / Website', 'theme_option'),
+                        'desc' => __('', 'theme_option'),
+                    ),
+                    array(
+                        'id' => 'footer_email_text',
+                        'type' => 'text',
+                        'title' => __('Email / Website', 'theme_option'),
+                        'desc' => __('', 'theme_option'),
+                    ),
+                    array(
+                        'id' => 'social_facebook',
+                        'type' => 'text',
+                        'title' => __('Facebook URL', 'theme_option'),
+                        'desc' => __('', 'theme_option'),
+                    ),
+                    array(
+                        'id' => 'social_youtube',
+                        'type' => 'text',
+                        'title' => __('Youtube URL', 'theme_option'),
+                        'desc' => __('', 'theme_option'),
                     ),
                     array(
                         'id' => 'copyright',
