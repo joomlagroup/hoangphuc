@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="48b7f7d8-67d5-4c65-875b-41605e5ce1a4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hoangphuc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/hoangphuc.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/land/ReduxCore/theme-option.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/ReduxCore/theme-option.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/land/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/archive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/land/archive-album-hinh.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/archive-album-hinh.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/land/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/land/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/land/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/land/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/land/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/page-home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/land/page-intro.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/land/page-intro.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,20 +18,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/land/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2843">
-              <caret line="2389" column="1" selection-start-line="2389" selection-start-column="1" selection-end-line="2389" selection-end-column="1" />
+            <state relative-caret-position="395">
+              <caret line="2519" column="10" selection-start-line="2519" selection-start-column="10" selection-end-line="2519" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sunwell/wp-content/themes/sunwell/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="18" column="120" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="120" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme-option.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/land/ReduxCore/theme-option.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="147" column="43" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/land/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="157" column="46" selection-start-line="157" selection-start-column="46" selection-end-line="157" selection-end-column="46" />
+            <state relative-caret-position="3519">
+              <caret line="207" column="57" selection-start-line="207" selection-start-column="57" selection-end-line="207" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -43,17 +57,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/land/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="20" column="88" selection-start-line="20" selection-start-column="88" selection-end-line="20" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nevada - Copy/wp-content/themes/nevada/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="3402" column="5" lean-forward="true" selection-start-line="3385" selection-start-column="3" selection-end-line="3402" selection-end-column="5" />
+            <state relative-caret-position="479">
+              <caret line="58" column="30" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="58" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -61,8 +66,8 @@
       <file leaf-file-name="template.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/hoangphuc/template.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5932" column="1" selection-start-line="5707" selection-end-line="5932" selection-end-column="1" />
+            <state relative-caret-position="262">
+              <caret line="767" column="1" lean-forward="true" selection-start-line="755" selection-end-line="767" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -70,8 +75,17 @@
       <file leaf-file-name="archive-album-hinh.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/land/archive-album-hinh.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="44" column="121" selection-start-line="44" selection-start-column="118" selection-end-line="44" selection-end-column="121" />
+            <state relative-caret-position="88">
+              <caret line="58" column="149" selection-start-line="58" selection-start-column="149" selection-end-line="58" selection-end-column="149" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taxonomy-danh-muc-du-an.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/land/taxonomy-danh-muc-du-an.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -80,8 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>CƠ HỘI ĐẦU TƯ</find>
-      <find>ĐIỂM NỔI BẬT TRONG THIẾT KẾ KIẾN TRÚC</find>
       <find>.note li</find>
       <find>.project-invest .box-invest</find>
       <find>body</find>
@@ -110,6 +122,8 @@
       <find>hide</find>
       <find>.fancybox-close</find>
       <find>.album-item</find>
+      <find>.wrap-social</find>
+      <find>.pagenavi a.next</find>
     </findStrings>
     <dirStrings>
       <dir>D:\works\htdocs\hoangphuc\wp-content\themes\land</dir>
@@ -148,14 +162,14 @@
         <option value="$PROJECT_DIR$/wp-content/themes/land/contact.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/page-intro.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/page-home.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/land/ReduxCore/theme-option.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/js/main.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/land/css/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/land/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/land/archive-album-hinh.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/ReduxCore/theme-option.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/land/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/archive-album-hinh.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/land/css/style.css" />
       </list>
     </option>
   </component>
@@ -202,14 +216,6 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="land" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hoangphuc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hoangphuc" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="land" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,28 +276,28 @@
       <workItem from="1554167306020" duration="19486000" />
       <workItem from="1554254290073" duration="8074000" />
       <workItem from="1554277503400" duration="8010000" />
-      <workItem from="1554339411462" duration="21514000" />
+      <workItem from="1554339411462" duration="22111000" />
+      <workItem from="1554427402826" duration="5486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204192000" />
+    <option name="totallyTimeSpent" value="210275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2635432" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32843137" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2635432" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -300,24 +306,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24377745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -330,27 +337,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Haikyu/wp-content/themes/btgame/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="793" lean-forward="true" selection-start-line="793" selection-end-line="806" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../toyennguyenchat/wp-content/themes/toyennguyenchat/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="2853" column="12" selection-start-line="2853" selection-start-column="12" selection-end-line="2853" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/taxonomy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="1956" column="28" selection-start-line="1956" selection-start-column="9" selection-end-line="1956" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -510,13 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/ReduxCore/theme-option.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="193" column="47" selection-start-line="193" selection-start-column="33" selection-end-line="193" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/land/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -528,9 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
           <caret line="255" column="24" lean-forward="true" selection-start-line="255" selection-start-column="24" selection-end-line="255" selection-end-column="24" />
-          <folding>
-            <element signature="e#5946#7829#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -541,13 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-68">
           <caret line="27" selection-end-line="76" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/archive-tuyen-dung.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="true" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -603,47 +572,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/js/jquery.fancybox.pack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/hoangphuc/template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5932" column="1" selection-start-line="5707" selection-end-line="5932" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2843">
-          <caret line="2389" column="1" selection-start-line="2389" selection-start-column="1" selection-end-line="2389" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/css/jquery.fancybox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/js/jquery.fancybox.pack.js" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/css/jquery.fancybox.css" />
     <entry file="file://$PROJECT_DIR$/../kiteweb/templates/kitetemplate/scripts/js.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="126" column="12" selection-start-line="125" selection-start-column="4" selection-end-line="126" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/taxonomy-danh-muc-du-an.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -654,31 +588,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/header.php">
+    <entry file="file://$PROJECT_DIR$/../top10/wp-content/themes/top10/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="20" column="88" selection-start-line="20" selection-start-column="88" selection-end-line="20" selection-end-column="88" />
+        <state relative-caret-position="-2292" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../top10 cu/wp-content/themes/top10/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="160" selection-start-line="160" selection-end-line="203" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nevada - Copy/wp-content/themes/nevada/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/ReduxCore/theme-option.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="3402" column="5" lean-forward="true" selection-start-line="3385" selection-start-column="3" selection-end-line="3402" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/archive-album-hinh.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="44" column="121" selection-start-line="44" selection-start-column="118" selection-end-line="44" selection-end-column="121" />
+          <caret line="147" column="43" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/land/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="157" column="46" selection-start-line="157" selection-start-column="46" selection-end-line="157" selection-end-column="46" />
+        <state relative-caret-position="3519">
+          <caret line="207" column="57" selection-start-line="207" selection-start-column="57" selection-end-line="207" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/archive-tuyen-dung.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="true" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nevada - Copy/wp-content/themes/nevada/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="3402" column="5" selection-start-line="3385" selection-start-column="3" selection-end-line="3402" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/taxonomy-danh-muc-du-an.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/archive-album-hinh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="58" column="149" selection-start-line="58" selection-start-column="149" selection-end-line="58" selection-end-column="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sunwell/wp-content/themes/sunwell/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="120" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/hoangphuc/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="767" column="1" lean-forward="true" selection-start-line="755" selection-end-line="767" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="58" column="30" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="58" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/land/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="2519" column="10" selection-start-line="2519" selection-start-column="10" selection-end-line="2519" selection-end-column="10" />
         </state>
       </provider>
     </entry>

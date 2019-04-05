@@ -1,8 +1,10 @@
 
 <?php /* Template Name: Tuyen Dung */
 $page_id = $post->ID;
-
-$args = array('post_type' => 'album-hinh');
+$option_posts_per_page = get_option('posts_per_page');
+$page     = get_query_var('paged') ? get_query_var('paged') : 1;
+$posts_per_page = 2;
+$args = array('post_type' => 'album-hinh','paged' => $page,'posts_per_page' => $posts_per_page);
 $album_hinh = new WP_Query($args);
 
 
@@ -51,6 +53,11 @@ $album_hinh = new WP_Query($args);
                     <?php endwhile; ?>
                     <?php endif; ?>
                     <div class="clearfix"></div>
+                </div>
+                <div class="pagination">
+                    <div class="">
+                        <?php if (function_exists('devvn_wp_corenavi') and ($option_posts_per_page <= $posts_per_page)) devvn_wp_corenavi($album_hinh); ?>
+                    </div>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -110,40 +117,6 @@ $album_hinh = new WP_Query($args);
                 }
             })
             return false;
-
-
-
-
-
-            /*
-            $.ajax({
-                type: "GET",
-                cache: false,
-                url: "/AJAX.aspx",
-                data: "func=GETGALLERYSLIDE&module=projectimage&id=" + dataid,
-                dataType: "html",
-                success: function (msg) {
-                    $("#fancy_content").html(msg);
-                    $("#fancy_content a").fancybox({
-                        openEffect: 'none',
-                        closeEffect: 'none',
-                        padding: 0,
-                        prevEffect: 'fade',
-                        nextEffect: 'fade',
-                        'titlePosition': 'over',
-                        'titleFormat': function (title, currentArray, currentIndex, currentOpts) {
-                            return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + ' ' + title + '</span>';
-                        }
-                    });
-                    if ($("#fancy_content a").length > 0) {
-                        $("#fancy_content a:first").trigger("click");
-                    }
-                },
-                error: function (msg) {
-                    bootbox.alert(msg);
-                }
-            });
-            */
         });
     })
 

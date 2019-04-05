@@ -30,6 +30,10 @@ global $tp_options;
     </script>
 
     <?php wp_head(); ?>
+
+    <?php if($tp_options['header_add_scripts']): ?>
+    <?php echo $tp_options['header_add_scripts'] ?>
+    <?php endif; ?>
 </head>
 <body <?php echo body_class() ?>>
 
@@ -46,6 +50,13 @@ global $tp_options;
                     <div class="collapse navbar-collapse" id="Toogle">
                         <i class="fa fa-close close_menu" aria-hidden="true"></i>
                         <?php wp_nav_menu(array('theme_location' => 'main-nav','menu_class' => 'navbar-nav')); ?>
+
+                        <div class="wrap-social">
+                            <ul class="ls-social">
+                                <li><a class="bt-facebook" href="#" target="_blank">Facebook</a></li>
+                                <li><a class="bt-youtube" href="#" target="_blank">Youtube</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
             </div>

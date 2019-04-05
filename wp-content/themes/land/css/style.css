@@ -585,6 +585,7 @@ header .mobile-menu-block {
     -ms-transition: all .25s ease-in-out;
     -o-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
+    width: 260px;
 }
 
 .ls-home-links .item:hover img {
@@ -1863,7 +1864,7 @@ header .mobile-menu-block {
 
 
 .pagenavi a.next {
-    background: #f3f3f3 url("../images/bt-page-prev.svg") center center no-repeat;
+    background: #f3f3f3 url("../images/bt-page-next.svg") center center no-repeat;
     background-size: 6px;
     width: 30px;
     height: 30px;
@@ -1871,7 +1872,7 @@ header .mobile-menu-block {
 }
 
 .pagenavi a.prev {
-    background: #f3f3f3 url("../images/bt-page-next.svg") center center no-repeat;
+    background: #f3f3f3 url("../images/bt-page-prev.svg") center center no-repeat;
     background-size: 6px;
     width: 30px;
     height: 30px;
@@ -2496,6 +2497,32 @@ header .mobile-menu-block {
     margin: 0;
 }
 
+/* icon social menu */
+
+header .mobile-menu-block {
+    position: relative;
+}
+
+.wrap-social {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    padding-right: 0px;
+    z-index: 100;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+header.sticky .wrap-social {
+    top: 0px;
+}
+
+.navbar-expand-lg {
+    padding: .5rem 0rem;
+}
 
 .ls-social {
     position: relative;
@@ -2552,6 +2579,7 @@ header .mobile-menu-block {
     opacity: 0.7;
 }
 
+
 @media(min-width:768px){
 
 }
@@ -2606,6 +2634,17 @@ header .mobile-menu-block {
         bottom: 3px;
     }
 
+    .wrap-social {
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+
+    .ls-social {
+        float: none;
+        margin-top: 20px;
+    }
+
     .marginright30 {
         margin-right: 18px !important;
     }
@@ -2622,8 +2661,6 @@ header .mobile-menu-block {
         font-size: 28px;
     }
 
-
-
     .page-branch-title .title .small-title {
         font-size: 16px;
     }
@@ -2639,7 +2676,110 @@ header .mobile-menu-block {
         transform: translateY(0);
     }
 
+    .ls-home-links {
+    }
 
+    .ls-home-links .item {
+        padding: 0 15px;
+    }
+
+    .ls-home-links .item img {
+    }
+
+    .ls-video {
+        margin-top: 20px;
+    }
+
+    .wrap-fieldwork span {
+        font-size: 14px;
+    }
+
+    .project-invest .box-invest {
+        position: relative;
+        top: 0;
+        margin-top: 20px;
+        padding: 20px;
+        width: auto;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    .wrap-detail-info {
+        max-width: 540px;.ls-location .title
+    background-size: 540px;
+        min-height: 550px;
+        padding: 30px 55px 0px 75px;
+        margin: 30px;
+    }
+
+    .wrap-detail-info .small-title {
+        font-size: 14px;
+    }
+
+    .ls-detail-info .item {
+        padding-left: 80px;
+    }
+
+    .ls-detail-info .item:before {
+        width: 80px;
+        height: 50px;
+    }
+
+    .ls-detail-info .item.item3:before, .ls-detail-info .item.item4:before {
+        background-size: 60px;
+    }
+
+    .ls-detail-info .item span {
+        font-size: 17px;
+    }
+
+    .bg-home-location, .page-location .bg-location {
+        background-size: 1600px !important;
+        background-position: bottom 187px center !important;
+    }
+
+    .section-bg.bg-home-overview, .section-bg.bg-home-album {
+        position: absolute;
+        top: 0;
+    }
+
+    .ls-overview .item:before {
+        top: 2px;
+        background-size: 45px;
+    }
+
+    .ls-overview .item span {
+        font-size: 16px;
+    }
+
+    .wrap-info .item.item-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .wrap-info .item.item-right {
+        width: 100%;
+    }
+
+    .section-bg.bg-home-location {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .album-gallery .bx-viewport, .modelhouse-gallery .bx-viewport {
+        top: -610px;
+        margin-bottom: -610px;
+    }
+
+    .album-gallery .bxslider li span.item, .modelhouse-gallery .bxslider li span.item {
+        height: 610px;
+    }
+
+    .album-gallery .bx-controls, .album-gallery .slide-content, .modelhouse-gallery .bx-controls, .modelhouse-gallery .slide-content {
+        visibility: hidden;
+        display: none;
+    }
 
 }
 

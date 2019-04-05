@@ -137,7 +137,19 @@ if (!class_exists('JPWEB_Theme_Options')) {
                         'type' => 'media',
                         'title' => __('Logo Image', 'theme_option'),
                         'desc' => __('Image that you want to use as logo', 'theme_option'),
-                    )
+                    ),
+                    array(
+                        'id' => 'header_add_scripts',
+                        'type' => 'textarea',
+                        'title' => __('Add script', 'theme_option'),
+                        'desc' => __('Add your script to header', 'theme_option'),
+                    ),
+                    array(
+                        'id' => 'site_image',
+                        'type' => 'media',
+                        'title' => __('Site Image', 'theme_option'),
+                        'desc' => __('Image that you want to use as default image on facebook', 'theme_option'),
+                    ),
 
                 )
             ); // end section
